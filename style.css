@@ -1,0 +1,151 @@
+body{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+img{
+    width: 100%;
+}
+
+.half-width{
+    width:40%;
+    float:left;
+    margin-left:5%;
+    padding-left: 2px;
+}
+
+
+section{
+    padding: 100px 0px;
+    height: 500px;
+    clear:both;
+}
+
+.intro{
+    padding-left: 110px;
+    box-sizing: border-box;
+    padding-top: 45px;
+}
+
+.intro-section{
+    background-image: url(images/header-bg.png);
+    background-size: cover;
+}
+
+
+.intro-section h2{
+
+}
+
+.intro-section h1{
+    color:#EE618B;
+    font-size: 30px;
+}
+
+.intro-section p{
+margin-bottom: 35px;
+}
+
+
+.link-button{
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    color: white;
+    background-color: #EE618B;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;    
+}
+
+.biography{
+    background-image: url("images/biography-bg.png");
+    background-size: cover;
+}
+
+.biography h2{
+    font-size: 30px;
+}
+
+.bio-details{
+    padding-top:70px;
+}
+
+.biography p{
+    margin-bottom: 35px;
+}
+
+.works{
+    background-image: url("images/latest-work-bg.png");
+    background-size: cover;
+}
+
+
+.works h1{
+    text-align: center;
+    padding-bottom: 60px;
+    font-size: 30px;
+}
+
+
+.works .work-item{
+    width: 25%;
+    float: left;
+    margin: 0px 4%;
+}
+
+.clients-comment{
+    background-image: url("images/footer-bg.png");
+    background-size: cover;
+    height:600px;
+}
+
+
+.clients-comment h1{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.clients-comment h4{
+text-align: center;
+}
+
+.clients-comment .designation{
+    text-align: center;
+    margin-top: -16px;
+    margin-bottom: 30px;
+    color:gray;
+    }
+
+.clients-comment .comment{
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+
+
+.clients-comment .mail-address{
+    text-align: center;
+    color:white;
+    border-radius:5px;
+    width:60%;
+    margin:0 auto;
+    background-image: linear-gradient(45deg,#EC5094,#ED4B71);
+    padding:20px 0px;
+
+}
+
+footer{
+    text-align: center;
+    color:gray;
+    padding: 20px;
+}
+
+
+
+
+
+
