@@ -195,10 +195,28 @@ text-align: center;
 footer{
     text-align: center;
     color:gray;
-    padding: 20px;
+    padding: 30px;
 }
 
+footer .social-links{
+    padding: 10px 0px;
+}
 
+footer .social-links a{
+    text-decoration: none;
+}
+
+footer .social-links a i{
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 7px;
+    padding: 9px;
+    margin: 0px 5px;
+}
+footer .social-links a i:hover{
+    background-color: #ED4B71;
+    color:white;
+}
 
 
 
