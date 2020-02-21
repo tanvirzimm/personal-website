@@ -18,8 +18,8 @@ img{
 
 section{
     padding: 100px 0px;
-    height: 500px;
     clear:both;
+    overflow: hidden;
 }
 
 .intro{
@@ -34,12 +34,16 @@ section{
 }
 
 
-.intro-section h2{
 
-}
 
 .intro-section h1{
     color:#EE618B;
+    font-size: 50px;
+    padding-left: 5px;
+}
+
+.intro-section h2{
+    margin-bottom: -40px;
     font-size: 30px;
 }
 
@@ -57,6 +61,11 @@ margin-bottom: 35px;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 16px;    
+}
+
+.link-button:hover{
+    box-shadow: 7px 7px 40px gray;
+    transition: .2s;
 }
 
 .biography{
@@ -94,6 +103,51 @@ margin-bottom: 35px;
     float: left;
     margin: 0px 4%;
 }
+
+
+.blogs{
+    background-image: url("images/biography-bg.png");
+    background-size: cover;
+}
+
+
+.blogs h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.blogs p{
+    text-align: center;
+    width:400px;
+    margin:0 auto;
+    padding-bottom: 30px;
+    color: gray;
+}
+
+
+.blogs .blog-item{
+    width: 26%;
+    float: left;
+    margin: 0px 3%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.blogs .blog-item p{
+    text-align: left;
+    width: 100%;
+    padding-bottom: 31px;
+}
+
+.blogs .blog-item a{
+    padding: 4px 13px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
 
 .clients-comment{
     background-image: url("images/footer-bg.png");
